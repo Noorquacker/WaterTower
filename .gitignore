@@ -9,6 +9,8 @@ npm-debug.*
 *.mobileprovision
 *.orig.*
 web-build/
+WaterTower/yarn.lock
+WaterTower/package-lock.json
 
 # macOS
 .DS_Store
