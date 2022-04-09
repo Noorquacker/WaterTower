@@ -10,12 +10,12 @@ import { SettingsView } from './SettingsView.js';
 const Stack = createStackNavigator();
 
 function MyStack() {
-  return (
-    <Stack.Navigator>
-      <Stack.Screen name="Home" component={WaterView} />
-      <Stack.Screen name="Settings" component={SettingsView} />
-    </Stack.Navigator>
-  );
+	return (
+	<Stack.Navigator>
+		<Stack.Screen name="Home" component={WaterView} />
+		<Stack.Screen name="Settings" component={SettingsView} />
+	</Stack.Navigator>
+	);
 }
 
 export default function App() {
