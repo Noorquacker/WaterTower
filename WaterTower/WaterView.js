@@ -1,10 +1,15 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Button } from 'react-native';
+import React from 'react';
 
-export const WaterView = () => {
+export const WaterView = ({navigation}) => {
+
 	return (
 	<View style={styles.container}>
-		<Text>Todo: make this work lmao</Text>
+		<Text>Todo: make this work lmao [done]</Text>
+		<Button title="CLICK ON MEEE" onPress={() => {
+			navigation.navigate('Settings');
+		}}/>
 		<StatusBar style="auto" />
 	</View>
 	);

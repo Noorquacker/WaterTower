@@ -3,7 +3,7 @@ import {Text, View, TextInput } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 
-export const DataTextInput = () => {
+export const SettingsView = () => {
     const [number,OnChangeNumber] = React.useState(null);
 
     return (
