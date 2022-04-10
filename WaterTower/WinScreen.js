@@ -3,10 +3,6 @@ import { StyleSheet, Text, View, Pressable, ImageBackground } from 'react-native
 import React from 'react';
 
 
-function addWater() {
-
-}
-
 export const WinScreen = ({navigation}) => {
 	return (
 	<View style={styles.container}>
