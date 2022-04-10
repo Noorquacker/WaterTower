@@ -18,7 +18,7 @@ export const WaterView = ({navigation}) => {
 		</Pressable>
 
 		<View style={styles.wText}>
-			<Text>Happy drinking</Text>
+			<Text style={styles.wText}>Happy drinking</Text>
 		</View>
 
 		<View style={styles.wContainer}>
@@ -61,6 +61,8 @@ const styles = StyleSheet.create({
 		alignItems: 'center',
 		justifyContent: 'center',
 		marginBottom: 50,
+		fontSize: 20,
+		fontWeight: 'bold',
 	},
 	wBg: {
 		width: 198,
