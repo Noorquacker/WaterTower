@@ -21,11 +21,14 @@ export const WaterView = ({navigation}) => {
 			<Text>Happy drinking</Text>
 		</View>
 
-		<Pressable onPress={addWater}>
-			<View style={styles.wContainer}>
-				<Image style={styles.wImage} source={require('./assets/WaterTower.jpeg')}/>
-			</View>
-		</Pressable>
+		<View style={styles.wContainer}>
+			<Image style={styles.wBg} source={require('./assets/water.gif')} />
+			<Pressable onPress={addWater}>
+				<View style={styles.wContainer}>
+					<Image style={styles.wImage} source={require('./assets/WaterTower.png')}/>
+				</View>
+			</Pressable>
+		</View>
 
 		<StatusBar style="auto" />
 	</View>
@@ -44,8 +47,10 @@ const styles = StyleSheet.create({
 	wImage: {
 		height: 512,
 		width: 270,
-		marginBottom: 0,
-		marginTop: 'auto',
+		zIndex: 1,
+// 		elevation: 1,
+		position: 'absolute',
+		top: 0,
 	},
 	settingsIcon: {
 		height: 30,
@@ -57,5 +62,14 @@ const styles = StyleSheet.create({
 		alignItems: 'center',
 		justifyContent: 'center',
 		marginBottom: 50,
+	},
+	wBg: {
+		width: 197,
+		height: 130,
+		zIndex: 0,
+// 		elevation: 0,
+		position: 'absolute',
+		bottom: -247,
+		right: 107,
 	},
 });
