@@ -48,7 +48,6 @@ const styles = StyleSheet.create({
 		height: 512,
 		width: 270,
 		zIndex: 1,
-// 		elevation: 1,
 		position: 'absolute',
 		top: 0,
 	},
@@ -64,12 +63,10 @@ const styles = StyleSheet.create({
 		marginBottom: 50,
 	},
 	wBg: {
-		width: 197,
+		width: 198,
 		height: 130,
 		zIndex: 0,
-// 		elevation: 0,
 		position: 'absolute',
 		bottom: -247,
-		right: 107,
 	},
 });
