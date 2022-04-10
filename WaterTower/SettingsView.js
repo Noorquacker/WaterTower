@@ -5,9 +5,6 @@ import NumericInput from 'react-native-numeric-input'
 import { Component } from 'react/cjs/react.production.min';
 
 
-
-
-
 export const SettingsView  = () => {
 	const [currentValue,setCurrentValue] = useState(0);
 	return (
