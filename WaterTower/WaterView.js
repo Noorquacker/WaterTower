@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Pressable, Image } from 'react-native';
+import { StyleSheet, Text, View, Pressable, Image, Button } from 'react-native';
 import React from 'react';
 
 
@@ -16,6 +16,11 @@ export const WaterView = ({navigation}) => {
 		}} style={styles.settingsIcon}>
 			<Image style={styles.settingsIcon} source={require('./assets/settings.png')} />
 		</Pressable>
+
+		<Button title = "Loss" onPress={() => {
+			navigation.navigate('Goal Not Met, Sadly');
+		}}>
+		</Button>
 
 		<View style={styles.wText}>
 			<Text style={styles.wText}>Happy drinking</Text>
