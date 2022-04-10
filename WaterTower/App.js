@@ -2,7 +2,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import { WaterView } from './WaterView.js';
-import { SettingsView } from './SettingsView.js';
+import Settings, { SettingsView } from './SettingsView.js';
 
 
 
