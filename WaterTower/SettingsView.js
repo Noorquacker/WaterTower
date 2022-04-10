@@ -13,7 +13,7 @@ export const SettingsView  = () => {
 	return (
 		<View style={styles.container}>
 			<Text style={styles.titleText}>
-				Enter the you goal below!!!
+				Enter your goal below (in Oz)!!!
 			</Text>
 			
 			<NumericInput 
@@ -46,6 +46,7 @@ const styles = StyleSheet.create({
 	},
 	titleText: {
 		fontSize: 20,
+		marginTop: 50,
 		fontWeight: "bold",
 		textAlign: 'center',
 		marginBottom: 100
