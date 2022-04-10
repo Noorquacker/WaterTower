@@ -17,11 +17,6 @@ export const WaterView = ({navigation}) => {
 			<Image style={styles.settingsIcon} source={require('./assets/settings.png')} />
 		</Pressable>
 
-		<Button title = "Loss" onPress={() => {
-			navigation.navigate('Goal Not Met, Sadly');
-		}}>
-		</Button>
-
 		<View style={styles.wText}>
 			<Text style={styles.wText}>Happy drinking</Text>
 		</View>
